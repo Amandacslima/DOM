@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulando a DOM com JS</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <h1 id="titulo">Manipulando a DOM com JS - Prof Lucas</h1>
+
+    <div class="container">
+        <!-- Parágrafos que serão modificados -->
+        <p class="mensagem1">Modifique essa frase 1 utilizando JS manipulando a DOM</p>
+        <p class="mensagem1">Modifique essa frase 2 utilizando JS manipulando a DOM</p>
+        <p class="mensagem1">Modifique essa frase 3 utilizando JS manipulando a DOM</p>
+        
+        <!-- Botão para modificar todas as frases -->
+        <button id="modificar-frases">Modificar Frases</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
